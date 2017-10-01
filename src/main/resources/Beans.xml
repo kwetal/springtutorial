@@ -9,5 +9,5 @@
           init-method="init" destroy-method="destroy">
         <property name = "message" value = "Hello World!"/>
     </bean>
-
+    <bean class = "springtutorial.InitHelloWorld" />
 </beans>

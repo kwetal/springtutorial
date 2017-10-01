@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
  */
 public class HelloWorld
 {
-    private static final Logger LOG = LogManager.getLogger("HelloWorld");
+    private static final Logger LOG = LogManager.getLogger(HelloWorld.class);
 
     private String message;
 
